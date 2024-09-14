@@ -1,4 +1,2 @@
 # dio-java
-primeira alteracao teste local
-
-# Outro Título
+Repositório para utilização no curso Java DIO
