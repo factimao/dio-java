@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Candidatura",
+            "request": "launch",
+            "mainClass": "Candidatura",
+            "projectName": "dio-java_9a2cb549"
+        },
+        {
+            "type": "java",
             "name": "App",
             "request": "launch",
             "mainClass": "App",
