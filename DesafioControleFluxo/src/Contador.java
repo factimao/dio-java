@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Contador {
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
         System.out.println(" ");
         Scanner scanner = new Scanner(System.in);
         System.out.println("Digite o primeiro número:");
@@ -27,4 +27,37 @@ public class Contador {
         }
 
 
+    }*/
+
+    //import java.util.Scanner;
+
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+        // Entrada do serviço a ser verificado
+        String servico = scanner.nextLine().trim();
+        
+        // Entrada do nome do cliente e os serviços contratados
+        String entradaCliente = scanner.nextLine().trim();
+        
+        // Separando o nome do cliente e os serviços contratados
+        String[] partes = entradaCliente.split(",");
+        String nomeCliente = partes[0];
+        boolean contratado = false;
+        
+        for (String parte : partes) {
+            if(servico.equals(parte)){
+                contratado = true;
+            }
+        }
+        
+        if (contratado){
+          System.out.println("Sim");
+        }else{
+          System.out.println("Nao");
+        }
+        
+        scanner.close();
     }
+}
