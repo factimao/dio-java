@@ -1,9 +1,12 @@
 import java.util.List;
 
-import list.OperacoesBasicas.*;
-import list.Ordenacao.OrdenacaoPessoas;
-import list.Ordenacao.OrdenacaoNumeros;
-import list.Pesquisa.*;
+import OperacoesBasicas.ListaTarefas;
+import OperacoesBasicas.CarrinhoCompras;
+import Pesquisa.CatalogoLivros;
+import Pesquisa.SomaNumeros;
+import Ordenacao.OrdenacaoPessoas;
+import Ordenacao.OrdenacaoNumeros;
+import Pesquisa.Livro;
 import set.OperacoesBasicas.*;
 
 public class App {
@@ -11,12 +14,12 @@ public class App {
         System.out.println();
         System.out.println("------------- Collections ----------------");
 
-        //operacoesListaTarefas();
-        //operacoesCarrinho();
-        //operacoesLivros();
-        //operacoesNumeros();
-        //operacoesOrdenacao1();
-        //operacoesOrdenacao2();
+        operacoesListaTarefas();
+        operacoesCarrinho();
+        operacoesLivros();
+        operacoesNumeros();
+        operacoesOrdenacao1();
+        operacoesOrdenacao2();
         operacoesSet();
         
         System.out.println("------------------------------------------");
